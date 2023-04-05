@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./projectsCrads.css"
+import "./projectsCards.css"
 import goku from "./goku.jpg"
 import ideals from "./ideals.png"
 import trackMate from "./paquete.jpg"
@@ -14,7 +14,7 @@ return (
                     <div className="card">
                         <img className="card_image" src={goku} alt="goku"></img>
                         <div className="card_content">
-                            <h2 className="card_title">DragonBall Jump</h2>
+                            <h2 className="card_title">DragonBall Jump</h2> <br></br>
                             <p className="card_text">Jump over the sky. Be aware of the enemies!</p>
                             <Link to ="projects/dragonBall" className="btn card_btn">Read More</Link>
                             <button className="btn card_btn mt-2">
@@ -31,7 +31,7 @@ return (
                     <div className="card">
                         <img className="card_image" src={ideals} alt="ideals"></img>
                         <div className="card_content">
-                            <h2 className="card_title">iDeals</h2>
+                            <h2 className="card_title">Ideals</h2> <br></br>
                             <p className="card_text">Intelligent deals all over the world</p>
                             <Link to="/projects/iDeals" className="btn card_btn">Read More</Link>
                             <button className="btn card_btn mt-2">
@@ -48,8 +48,8 @@ return (
                     <div className="card">
                         <img className="card_image" src={trackMate} alt="trackMate"></img>
                         <div className="card_content">
-                            <h2 className="card_title">iDeals</h2>
-                            <p className="card_text">Intelligent deals all over the world</p>
+                            <h2 className="card_title">TrackMate</h2> <br></br>
+                            <p className="card_text">Track your package at real time</p>
                             <Link to="/projects/trackMate" className="btn card_btn">Read More</Link>
                             <button className="btn card_btn mt-2">
                                 <Link to="https://github.com/naseemxabier/TrackMate-client">
