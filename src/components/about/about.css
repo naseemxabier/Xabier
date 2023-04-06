@@ -1,10 +1,143 @@
+/* Importar una fuente personalizada de Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+/* Definir las variables de colores principales */
+:root {
+  --primary-color: #4f4f4f;
+  --secondary-color: #f2994a;
+  --tertiary-color: #27ae60;
+  --background-color: #f8f8f8;
+}
+
+/* Resetear los márgenes y rellenado por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definir la fuente de todo el cuerpo del documento */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--background-color);
+}
+
+/* Estilo de encabezados */
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 2rem 0;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+  color: var(--primary-color);
+}
+
+/* Estilo de párrafos */
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: var(--primary-color);
+}
+
+/* Estilo de botones */
+button {
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.8rem 2rem;
+  background-color: var(--tertiary-color);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Estilo de la sección de información */
 .info {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilo de la imagen de perfil */
+.xabier {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.card_btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.card_btn:hover {
+  background-color: var(--secondary-color);
+}
+
+.card_btn:active {
+  background-color: var(--tertiary-color);
+}
+
+
+.logo {
+  margin-right: 0.5rem;
+}
+
+
+#about {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
   }
-  
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+  button {
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+  }
+  .info {
+    gap: 1rem;
+  }
   .xabier {
-    width: 200px;
-    margin-right: 20px;
+    height: 150px;
+    width: 150px;
   }
+}

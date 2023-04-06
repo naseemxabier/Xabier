@@ -1,0 +1,27 @@
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+#skills div {
+  text-align: center;
+  width: 150px;
+  margin: 20px;
+}
+
+#skills img {
+  width: 100%;
+}
+
+#skills p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+h1 {
+text-align: center;
+}

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import "./navbar.css"
 
 function Navbar() {
     return (
@@ -12,13 +12,16 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto me-5">
                             <li className="nav-item">
-                                <Link to ="/" className="nav-link active" aria-current="page">Home</Link>
+                                <a href ="#home" className="nav-link active" aria-current="page">Home</a>
                             </li>
                             <li className="nav-item">
-                                <Link to="/about" className="nav-link">About me</Link>
+                                <a href="#about" className="nav-link">About me</a>
                             </li>
                             <li className="nav-item">
-                                <Link to="/contact" className="nav-link">Contact</Link>
+                                <a href="#skills" className="nav-link">Skills</a>
+                            </li>
+                            <li className="nav-item">
+                                <a href="#projects" className="nav-link">Projects</a>
                             </li>
                         </ul>
                     </div>
