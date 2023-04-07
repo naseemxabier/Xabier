@@ -17,10 +17,10 @@ function About() {
                         <p>
                             Hello, my name is Xabier and I am a biologist who recently completed a full-stack web development bootcamp at Ironhack. I am passionate about understanding the natural world and applying technology to solve complex problems. With my newfound skills in web development, I am excited to explore the intersection of biology and technology and contribute to the development of innovative solutions in these fields.
                         </p>
-                        <div className="button-container" style={{ display: "flex", justifyContent: "center"}}>
+                        <div className="button-container" style={{ display: "flex", justifyContent: "center" }}>
                             <button className="btn card_btn mt-2">
                                 <Link to="https://github.com/naseemxabier?tab=repositories">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" classNameNameNameName="bi bi-github" viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" className="bi bi-github" viewBox="0 0 16 16">
                                         <path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.29 6.533 5.47 7.59.4.074.546-.174.546-.387 0-.19-.007-.693-.01-1.36-2.225.483-2.695-1.072-2.695-1.072-.364-.924-.889-1.17-.889-1.17-.725-.495.056-.486.056-.486.803.056 1.225.825 1.225.825.714 1.226 1.872.87 2.33.665.072-.517.278-.87.506-1.07-1.78-.202-3.644-.89-3.644-3.965 0-.876.312-1.59.825-2.145-.083-.202-.36-1.015.078-2.117 0 0 .67-.215 2.2.82.638-.178 1.318-.266 2-.27.682.004 1.362.092 2 .27 1.53-1.035 2.2-.82 2.2-.82.437 1.102.162 1.915.08 2.117.51.555.823 1.27.823 2.145 0 3.084-1.866 3.76-3.65 3.958.287.248.54.73.54 1.478 0 1.07-.01 1.937-.01 2.202 0 .215.145.465.55.386A10.154 10.154 0 0 0 16 8c0-4.418-3.582-8-8-8z" />
                                     </svg>
                                 </Link>
@@ -35,7 +35,7 @@ function About() {
                             </button>
 
                             <button className="btn card_btn mt-2">
-                                <Link to="https://www.youtube.com/watch?v=x-diuWzPqTU"><svg xmlns="http://www.w3.org/2000/svg"width="20" height="20" fill="red" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <Link to="https://www.youtube.com/watch?v=x-diuWzPqTU"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="red" class="bi bi-youtube" viewBox="0 0 16 16">
                                     <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path>
                                 </svg>
                                 </Link>
@@ -49,12 +49,21 @@ function About() {
                             </button>
                             <button className="btn card_btn mt-2">
                                 <Link to="mailto:naseemxabier@gmail.com">
-                                    <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" className="email" width="20" height="20">
-                                        <path d="M496 64H16C7.2 64 0 71.2 0 80v352c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V80c0-8.8-7.2-16-16-16zM416 128l-160 112-160-112V96l160 112 160-112v32z"></path>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style={{ fill: "red", transform: "msFilter" }}>
+                                        <path d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"></path>
                                     </svg>
                                 </Link>
                             </button>
-                          
+
+                            <button className="btn card_btn mt-2">
+                                <Link to="" download="Download CV">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style={{ fill: "rgba(0, 0, 0, 1)", transform: "msFilter" }}>
+                                        <path d="M19 9h-4V3H9v6H5l7 8zM4 19h16v2H4z"></path>
+                                    </svg>
+                                </Link>
+                            </button>
+
+
                         </div>
                     </div>
                 </div>
