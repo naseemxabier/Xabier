@@ -5,7 +5,7 @@ function DragonBall () {
 <>
     <Navbar/>
 
-    <p>Hola desde DragonBall</p>
+    <p>Hola ANA</p>
 </>
 
     )
