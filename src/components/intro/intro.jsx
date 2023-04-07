@@ -17,7 +17,7 @@ function Intro() {
                     <p style={{ color: '#fff', fontSize: '1rem', marginBottom: '0rem', fontFamily: "Montserrat" }}>Matt Mullenweg</p>
                 </div>
                 <div style={{ position: 'absolute', top: '68%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center', padding: '1.5rem'}}>
-                <button style={{color: '#fff', borderRadius: '40px', backgroundColor: 'rgba(233,189,21)',}}>
+                <button style={{color: '#fff', borderRadius: '40px', backgroundColor: 'black',}}>
                     Download CV
                 </button>
                 </div>

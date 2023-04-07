@@ -7,17 +7,18 @@ import { Link } from "react-router-dom";
 function About() {
     return (
         <>
-            <h1>About me</h1>
+            
             <section id="about">
+            <h1>ABOUT ME</h1>
                 <div className="info">
                     <img className="xabier" src={xabier} alt="xabier"></img>
                     <div >
-                        <h2 >Xabier Naseem Mohammad</h2>
-                        <h4>Full Stack Web Developer & Biologist</h4>
-                        <p>
+                        <h2 className="mb-3">Xabier Naseem Mohammad Naveira</h2>
+                        <h4 className="mb-3">Full Stack Web Developer & Biologist</h4>
+                        <p className="mb-4">
                             Hello, my name is Xabier and I am a biologist who recently completed a full-stack web development bootcamp at Ironhack. I am passionate about understanding the natural world and applying technology to solve complex problems. With my newfound skills in web development, I am excited to explore the intersection of biology and technology and contribute to the development of innovative solutions in these fields.
                         </p>
-                        <div className="button-container" style={{ display: "flex", justifyContent: "center" }}>
+                        <div className="button-container mb-5" style={{ display: "flex", justifyContent: "center" }}>
                             <button className="btn card_btn mt-2">
                                 <Link to="https://github.com/naseemxabier?tab=repositories">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" className="bi bi-github" viewBox="0 0 16 16">
