@@ -5,7 +5,7 @@ function Intro() {
     return (
         <>
 
-            <div style={{ position: 'relative' }}>
+            <div id="intro" style={{ position: 'relative' }}>
                 <video controlsList="nodownload" loop src={video} autoPlay={true} muted type="video/mp4" style={{ width: '100%' }}>
                     Video is not supported by your browser.
                 </video>
@@ -18,7 +18,7 @@ function Intro() {
                 </div>
                 <div style={{ position: 'absolute', top: '68%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center', padding: '1.5rem'}}>
                 <button style={{color: '#fff', borderRadius: '40px', backgroundColor: 'black',}}>
-                    Download CV
+                   <a href="./XabierNaseemEnglish.pdf" download style={{color: '#fff', textDecoration:'none'}}>Download CV</a>
                 </button>
                 </div>
                 

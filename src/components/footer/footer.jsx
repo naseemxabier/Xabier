@@ -1,7 +1,5 @@
 import React from 'react';
 import './footer.css';
-import {Link} from "react-router-dom"
-
 
 function Footer() {
   return (
@@ -10,12 +8,14 @@ function Footer() {
         
         <nav className="footer__nav">
           <ul>
-            <li><Link to="">Home</Link></li>
+            <li><a href="#intro">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
           </ul>
         </nav>
         <div className="footer__copy">
-          <p>© 2023 Todos los derechos reservados</p>
+          <p>© 2023 All rigths reserved</p>
         </div>
       </div>
     </footer>
