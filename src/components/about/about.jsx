@@ -49,28 +49,15 @@ function About() {
                             </button>
                             <button className="btn card_btn mt-2">
                                 <Link to="mailto:naseemxabier@gmail.com">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style={{ fill: "red", transform: "msFilter" }}>
-                                        <path d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"></path>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style={{ fill: "rgba(0, 0, 0, 1)", transform: " msFilter" }}>
+                                        <path d="M20 4H6c-1.103 0-2 .897-2 2v5h2V8l6.4 4.8a1.001 1.001 0 0 0 1.2 0L20 8v9h-8v2h8c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-7 6.75L6.666 6h12.668L13 10.75z"></path><path d="M2 12h7v2H2zm2 3h6v2H4zm3 3h4v2H7z"></path>
                                     </svg>
                                 </Link>
                             </button>
-
-                            <button className="btn card_btn mt-2">
-                                <Link to="" download="Download CV">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style={{ fill: "rgba(0, 0, 0, 1)", transform: "msFilter" }}>
-                                        <path d="M19 9h-4V3H9v6H5l7 8zM4 19h16v2H4z"></path>
-                                    </svg>
-                                </Link>
-                            </button>
-
-
                         </div>
                     </div>
                 </div>
             </section>
-
-
-
         </>
     )
 }
