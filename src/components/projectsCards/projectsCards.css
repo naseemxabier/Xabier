@@ -13,7 +13,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  align-items: center; /* Centrar las tarjetas */
+  align-items: center; 
 }
 
 .cards_item {
@@ -30,10 +30,17 @@
   border-radius: 5px;
   overflow: hidden;
   transition: all 0.2s ease-in-out;
-  width: 100%; /* Todas las tarjetas tienen el mismo ancho */
-  margin: 10px; /* Espacio entre las tarjetas */
+  width: 100%;
+  margin: 10px; 
 }
-
+.proyectos {
+    font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  color: #4f4f4f;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
@@ -48,10 +55,10 @@
 .card_content {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centrar el botón "read more" */
+  align-items: center;
   justify-content: center;
   padding: 20px;
-  text-align: center; /* Centrar el texto */
+  text-align: center; 
 }
 
 .card_title {

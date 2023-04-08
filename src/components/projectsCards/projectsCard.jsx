@@ -10,14 +10,14 @@ function projectsCard() {
 
         <>
             <section id="projects">
-                <h1 className="mx-auto">Projects</h1>
+                <h1 className="proyectos mx-auto">PROJECTS</h1>
                 <ul className="cards">
                     <li className="cards_item">
                         <div className="card">
                             <img className="card_image" src={goku} alt="goku"></img>
                             <div className="card_content" style={{ textAlign: 'center' }}>
                                 <h2 className="card_title">DragonBall Jump</h2> <br></br>
-                                <p className="card_text">Jump over the sky. Be aware of the enemies!</p>
+                                <p className="card_text">Jump over the sky, as high as you can!</p>
                                 <Link to="projects/dragonBall" className="btn card_btn">Read More</Link>
                                 <div style={{ display: "flex", justifyContent: "center" }}>
                                     <button className="btn card_btn mt-2">

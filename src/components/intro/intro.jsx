@@ -1,5 +1,5 @@
 import "./intro.css"
-import video from "./pexels-fl-studio-3094026-3840x2160-30fps.mp4"
+import video from "./playa.mp4"
 
 function Intro() {
     return (
