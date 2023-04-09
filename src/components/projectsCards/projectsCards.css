@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+
 #projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 50px auto;
-  max-width: 800px;
+  margin: auto;
+  max-width: 1200px;
 }
 .cards {
   display: flex;
@@ -19,7 +21,8 @@
 .cards_item {
   display: flex;
   padding: 15px;
-  width: 33%;
+  width: 25%;
+  align-items: stretch;
 }
 
 .card {
@@ -30,11 +33,15 @@
   border-radius: 5px;
   overflow: hidden;
   transition: all 0.2s ease-in-out;
-  width: 100%;
-  margin: 10px; 
+  max-width: 200%;
+  margin: 10px;
+  flex: 1;
+  max-height: 500px;
 }
+
+
 .proyectos {
-    font-size: 3rem;
+  font-size: 3rem;
   font-weight: 600;
   text-align: center;
   color: #4f4f4f;
@@ -48,7 +55,7 @@
 
 .card_image {
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
 }
 

@@ -17,7 +17,7 @@ object-fit: cover;
 
 .intro-text {
 position: absolute;
-top: 30%;
+top: 40%;
 left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;
@@ -25,20 +25,20 @@ padding: 1.5rem;
 border-radius: 1rem;
 background-color: rgba(0, 0, 0, 0.5);
 width: 90%;
-max-width: 500px;
+max-width: 580px;
 margin: 0 auto;
 }
 
 .intro-text h2 {
 color: #fff;
 font-style: italic;
-font-size: 2rem;
+font-size: 1.4rem;
 margin-bottom: 1rem;
 }
 
 .intro-text p {
 color: #fff;
-font-size: 1.6rem;
+font-size: 1rem;
 margin-bottom: 0rem;
 }
 
@@ -50,7 +50,7 @@ transform: translate(-50%, -50%);
 text-align: center;
 padding: 1.5rem;
 width: 90%;
-max-width: 500px;
+max-width: 350px;
 margin: 0 auto;
 }
 
@@ -58,9 +58,9 @@ margin: 0 auto;
 color: #fff;
 border-radius: 40px;
 background-color: black;
-font-size: 1.8rem;
+font-size: 1.4rem;
 font-weight: bold;
-padding: 1.2rem 4rem;
+padding: 1rem 2.5rem;
 border: none;
 cursor: pointer;
 }
