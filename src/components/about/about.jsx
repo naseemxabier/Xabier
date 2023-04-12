@@ -18,6 +18,7 @@ function About() {
                         <p className="mb-4">
                         I am a biologist who recently completed a full-stack web development bootcamp at Ironhack. I am passionate about understanding the natural world and applying technology to solve complex problems. With my newfound skills in web development, I am excited to explore the intersection of biology and technology and contribute to the development of innovative solutions in these fields.
                         </p>
+                        <p>Feel free to contact me clicking in the buttons below:</p>
                         <div className="button-container mb-5" style={{ display: "flex", justifyContent: "center" }}>
                             <button className="btn card_btn mt-2">
                                 <Link to="https://github.com/naseemxabier?tab=repositories" target={"_blank" }>
